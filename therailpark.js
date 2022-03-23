@@ -55,6 +55,7 @@ document.querySelector('.sidebutton').addEventListener("click",function(){
         document.querySelector('body').style.background="black";
         document.querySelector('.navbar').style.background="black";
         document.querySelector('.navbar').style.color="white";
+        document.querySelector('.navbar').style.display="block";
         document.querySelector('.NavOverlay').style.display="block";
         document.querySelector('.donatebutton').style.background="#04C75C";
         document.querySelector('.bar1').style.background="#04C75C";
@@ -74,6 +75,7 @@ document.querySelector('.sidebutton').addEventListener("click",function(){
         document.querySelector('body').style.background="#faf9f7";
         document.querySelector('.navbar').style.background="#faf9f7";
         document.querySelector('.navbar').style.color="black";
+        document.querySelector('.navbar').style.display="flex";
         document.querySelector('.NavOverlay').style.display="none";
         document.querySelector('.donatebutton').style.background="white";
         document.querySelector('.bar1').style.background="black";
