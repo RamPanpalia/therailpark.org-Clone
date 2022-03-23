@@ -768,6 +768,9 @@ display: flex;
 .G{
     padding: 40px;
 }
+.Ga1{
+    padding-right: 0;
+}
 .Gvideo{
     height: 300px;
 }
