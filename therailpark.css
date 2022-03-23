@@ -188,6 +188,9 @@ body{
     font-size: 20px;
     padding: 18px;
 }
+.NO_01_E:hover{
+    color: #05ff75;
+}
 
 .NO2{
     padding: 130px;
@@ -240,13 +243,13 @@ body{
     padding: 15px;
 }
 .instagramicon:hover{
-    fill: red;
+    fill: red !important;
 }
 .facebookicon:hover{
-    fill: rgb(13, 146, 255);
+    fill: rgb(13, 146, 255) !important;
 }
 .twittericon:hover{
-    fill: rgb(13, 146, 255);
+    fill: rgb(13, 146, 255) !important;
 }
 
 /*--NavOverlay*/
@@ -458,9 +461,7 @@ display: flex;
     padding: 20px 10px 10px 10px;
 }
 .Gvideo{
-    
     height: 490px;
-    /* width: ; */
     border-radius: 10px;
 }
 
@@ -669,27 +670,151 @@ display: flex;
 
 @media screen and (max-width:1200px) {
 
+*{
+    overflow-x: scroll;
+}
+.NO2{
+    padding: 80px;
+    padding-top:0px ;
+    display: flex;
+}
+    
+.NO2_02, .NO2_03{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.NO3, .NO2_04{
+    display: none;
+}
+
+.navbar{
+    padding: 40px 0;
+}
+.arrowl,.arrowr{
+    padding: 20px 0 10px 0;
+}
+.arrowr{
+    padding-top: 370px;
+}
 .Ahead{
     font-size: 110px;
+    padding: 0 100px 0 100px;
 }
 
 .navelement{
-    padding: 0 70px;
+    padding: 0 42px;
 }
-
+.searchbar{
+    width: auto;
+}
+.circular1{
+    margin: 0 0 0 200px;
+}
 .text1a{
-    font-size: 40px;
+    font-size: 35px;
     width: 360px;
-    padding-right: 0px;
+    padding: 0px;
 }
 
 .image1{
-    height: 390px;
+    height: 250px;
+    width: 320px;
+}
+
+.B{
+    margin: 0 50px 50px 50px;
+    display: block;
 }
 
 .Bhead{
     font-size: 55px;
-    padding: 0 100px 0 500px;
+    font-weight: 700;
+    padding: 0 100px 10px 100px;
+}
+/* 
+.b2{
+    padding-left: 20px;
+} */
+
+.b22{
+    padding: 30px 5px 0 0;
+    font-size: 40px;
+}
+.b23{
+    padding: 10px 5px 0 0;
+}
+.b31{
+    padding-top: 10px;
+}
+.b32{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.Bb{
+    display: block;
+}
+
+.C{
+    font-size: 48px;
+    padding: 0px 100px 80px 40px;
+}
+.c{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 100;
+    display: flex;
+}
+.G{
+    padding: 40px;
+}
+.Gvideo{
+    height: 300px;
+}
+.H{
+    transform: translateY(-150px);
+    padding-left: 400px;
+}
+.Ha1{
+    font-size: 35px;
+}
+.Hvideo{
+    height: 200px;
+}
+.I{
+    font-size: 20px;
+    padding-left: 40px;
+    transform: translateY(-210px);
+}
+.J{
+    padding-left: 40px;
+}
+.K{
+    padding: 10px 0 0 40px;
+}
+.Kb1{
+    margin: 0;
+}
+.W{
+    display: block;
+}
+.X{
+    padding-top: 90px;
+    padding-left: 100px;
+}
+.Xhead{
+    transform: rotate(270deg) translate(-140px,-180px);
+    font-size: 37px;
+}
+.Xatext1{
+    font-size: 22px;
+}
+.X img{
+    height: 250px;
+}
+.Z{
+    display: block;
+    text-align: center;
 }
 
 }
@@ -701,8 +826,14 @@ display: flex;
     padding: 10px;
 }
 .NO3{display: block;}
-
-.searchbar{width: 100px;}
+.sidbut{
+    padding: 0;
+}
+.sidebutton{padding-right: 5px;}
+.searchbar{
+    margin: 10px;
+    width: 300px;
+}
 .navelement{
     display: none !important;
     padding: 3px 50px;
@@ -713,7 +844,6 @@ display: flex;
 
 .navbar{
     padding:10px 10px;
-    width: auto;
 }
 
 .bar1, .bar2{
@@ -721,7 +851,8 @@ display: flex;
 }
 
 .Aa{
-    display: block;
+    display: flex !important;
+    overflow-x: scroll;
     padding-left: 10px;
 }
 .text1a{
@@ -732,7 +863,12 @@ display: flex;
     padding: 0 0 0 20px;
 }
 .a1, .a2{
-    display: block;
+    display: block !important;
+    overflow: visible;
+    padding: 0 30px;
+}
+.arrowr,.arrowl{
+    display: none;
 }
 
 .image1{
@@ -781,6 +917,11 @@ display: flex;
 .c{
     padding-top: 25px;
     font-size: 20px;
+}
+.donatebutton1c{
+    padding: 6px;
+    margin: 4px;
+    font-size: 14px;
 }
 .G{
     display: block;
